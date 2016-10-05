@@ -89,7 +89,7 @@ BOOST_AUTO_TEST_CASE(simple_instructions)
 
 BOOST_AUTO_TEST_CASE(keywords)
 {
-	BOOST_CHECK(successParse("{ byte return }"));
+	BOOST_CHECK(successParse("{ byte return address }"));
 }
 
 BOOST_AUTO_TEST_CASE(constants)
